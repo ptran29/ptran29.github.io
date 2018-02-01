@@ -1,2 +1,5 @@
-header { text-align: center; }
-.subtitle {color: #7C8281} 
+header {text-align: center}
+body {font-family: helvetica, sans-serif;}
+.subtitle {color: #7C8281}
+.title {color: #711EF0}
+#masthead {text-align: center;}
