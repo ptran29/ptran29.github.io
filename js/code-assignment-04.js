@@ -37,6 +37,6 @@ let projectObject = {
   }
 
 
-console.log(projectArray[2])
+console.log(projectArray[1])
 console.log(projectObject.title)
 console.log(projectObject["title"])

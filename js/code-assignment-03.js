@@ -1,5 +1,5 @@
 let projectId = 1
-let projectTitle = "Erathquake Map"
+let projectTitle = "Earthquakes Map"
 let thumbnail = true
 let projectTitles = ["Earthquakes Map" , "Map of Earthquakes of magnitude 2.5 or greater"]
 
