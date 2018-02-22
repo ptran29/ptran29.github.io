@@ -1,42 +1,46 @@
-let projectArray = [
+let projectArray1 = [
   1,
-  'https://example.com',
-  'Project Title',
-  'Project description.',
+  'http://arcg.is/2rBHUeZ',
+  'Book Assignment 01',
+  'Tour of Ho Chi Minh City, which was where I was born.',
   true
 ]
 
-let projectObject = {
-    id: 1,
-    url: 'https://example.com',
-    title: 'Project Title',
-    desc: 'Project description.',
+let projectObject1 = {
+    id: 2,
+    url: 'http://example.com',
+    title: 'Book Assignment 01',
+    desc: 'Tour of Ho Chi Minh City, which was where I was born.',
     thumb: true,
   }
 
-let projectArray = [
+let projectArray2 = [
     1,
-    'https://example.com',
-    'Project Title',
-    'Project description.',
+    'https://www.arcgis.com/apps/View/index.html?appid=a8c111473e1c439e8ad83db8d026f587',
+    'Book Assignment 02',
+    'Shows 2.5+ Magnitude Earthquakes around the world in the past 24 hours.',
     true,
-    ['keyword here', 'buzzword', 'another keyword']
+    ['BookAssignment02', 'Book', 'Assignment']
   ]
 
-let projectObject = {
-    id: 1,
-    url: 'https://example.com',
-    title: 'Project Title',
-    desc: 'Project description.',
+let projectObject2 = {
+    id: 2,
+    url: 'https://www.arcgis.com/apps/View/index.html?appid=a8c111473e1c439e8ad83db8d026f587',
+    title: 'Book Assignment 02',
+    desc: 'Shows 2.5+ Magnitude Earthquakes around the world in the past 24 hours.',
     thumb: true,
     keywords: [
-      'keyword here',
-      'buzzword',
-      'another keyword'
+      'BookAssignment02',
+      'Book',
+      'Assignment'
     ]
   }
 
 
-console.log(projectArray[1])
-console.log(projectObject.title)
-console.log(projectObject["title"])
+console.log(projectArray1[1])
+console.log(projectObject1.title)
+console.log(projectObject["Book Assignment 01"])
+
+console.log(projectArray2[1])
+console.log(projectObject2.title)
+console.log(projectObject["Book Assignment 02"])
