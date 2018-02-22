@@ -8,7 +8,7 @@ let projectArray1 = [
 
 let projectObject1 = {
     id: 1,
-    url: 'http://example.com',
+    url: 'http://arcg.is/2rBHUeZ',
     title: 'Book Assignment 01',
     desc: 'Tour of Ho Chi Minh City, which was where I was born.',
     thumb: true,
@@ -18,7 +18,7 @@ let projectArray2 = [
     2,
     'https://www.arcgis.com/apps/View/index.html?appid=a8c111473e1c439e8ad83db8d026f587',
     'Book Assignment 02',
-    'Shows 2.5+ Magnitude Earthquakes around the world in the past 24 hours.',
+    'Web App that shows 2.5+ Magnitude Earthquakes around the world in the past 24 hours',
     true,
     ['BookAssignment02', 'Book', 'Assignment']
   ]
@@ -27,7 +27,7 @@ let projectObject2 = {
     id: 2,
     url: 'https://www.arcgis.com/apps/View/index.html?appid=a8c111473e1c439e8ad83db8d026f587',
     title: 'Book Assignment 02',
-    desc: 'Shows 2.5+ Magnitude Earthquakes around the world in the past 24 hours.',
+    desc: 'Web App that shows 2.5+ Magnitude Earthquakes around the world in the past 24 hours',
     thumb: true,
     keywords: [
       'BookAssignment02',
