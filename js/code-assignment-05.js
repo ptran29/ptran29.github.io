@@ -19,6 +19,17 @@ projectData[0] = {
 }
 
 for (let i = 0; i < projectData.length; i++) {
-  let x = i + 1
-  console.log('BookAssignment0-' + x + '.png');
+  if (projectData[i].thumb === true) {
+    console.log('BookAssignment0-' + projectData[i].id + '.png')
+  } else {
+    console.log('logo.png')
+  }
+}
+
+for (let i = 0; i < projectData.length; i++) {
+  if (projectData[i].title === '') {
+    console.log('No title')
+  } else {
+    console.log(projectData[i].title)
+  }
 }
