@@ -29,13 +29,12 @@ let projectObject2 = {
     title: 'Book Assignment 02',
     desc: 'Web App that shows 2.5+ Magnitude Earthquakes around the world in the past 24 hours',
     thumb: true,
-    keywords: [
-      'BookAssignment02',
-      'Book',
-      'Assignment'
-    ]
+    keywords: ['BookAssignment02','Book','Assignment']
   }
 
+let projects = {projectObject1, projectObject2}
+
+console.log(projects);
 
 console.log(projectArray1[1])
 console.log(projectObject1.title)
