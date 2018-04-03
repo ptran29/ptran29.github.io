@@ -6,7 +6,18 @@ L.tileLayer(basemap).addTo(PhatMap)
 
 let PhatPoint = L.marker([10.815223, 106.624117]).addTo(PhatMap)
 
-let PhatPoint = L.line([10.815223, 106.624117], [10.837949, 106.615716]).addTo(PhatMap)
+var pointA = new L.LatLng(10.815223, 106.624117);
+var pointB = new L.LatLng(10.837949, 106.615716);
+var pointList = [pointA, pointB];
+
+var firstpolyline = new L.Polyline(pointList, {
+    color: 'green',
+    weight: 3,
+    opacity: 0.5,
+    smoothFactor: 1
+});
+firstpolyline.addTo(PhatMap);
+
 
 let polygon = L.polygon([
   [10.804057, 106.636599],
