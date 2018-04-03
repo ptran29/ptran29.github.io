@@ -6,6 +6,8 @@ L.tileLayer(basemap).addTo(PhatMap)
 
 let PhatPoint = L.marker([10.815223, 106.624117]).addTo(PhatMap)
 
+let PhatPoint = L.line([10.815223, 106.624117], [10.837949, 106.615716]).addTo(PhatMap)
+
 let polygon = L.polygon([
   [10.804057, 106.636599],
   [10.823616, 106.627673],
