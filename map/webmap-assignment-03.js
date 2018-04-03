@@ -19,7 +19,7 @@ let PhatPoint = [
 
 let PhatStyle = {
   color: 'red',
-  fillColor: 'green'
+  fillColor: 'blue'
 }
 
 let polygon = L.polygon(PhatPoint, PhatStyle).addTo(PhatMap3);
