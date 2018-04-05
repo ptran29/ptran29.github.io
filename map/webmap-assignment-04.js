@@ -9,7 +9,7 @@ PhatGeojsonStyle = function (feature) {
   if (SpeedLimit < 30) {StateColor = 'red'}
   let myStyle = {
   color: StateColor,
-  weight: 1,
+  weight: 1.5,
   }
   return myStyle
 }
