@@ -11,7 +11,7 @@ let MyMarkerIcon = L.icon({
   popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 })
 
-let PhatMarker = L.marker([30.430840, -91.378721], {icon: MyMarkerIcon}).addTo(PhatMapFinal).bindPopup('This webmap shows all the tourist venues in Baton Rouge and its owner.<br> Design by Phat Tran.')
+let PhatMarker = L.marker([30.430840, -91.378721], {icon: MyMarkerIcon}).addTo(PhatMapFinal).bindPopup('This web map shows all the tourist venues in Baton Rouge and its owner.<br> Design by Phat Tran.<br> My portfolio can be access at https://ptran29.github.io/')
 
 
 let myBasemaps = {
