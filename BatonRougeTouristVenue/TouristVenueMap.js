@@ -20,15 +20,19 @@ let myBasemaps = {
   'Color Basemap': PhatColorMap1
 }
 
-PhatGeojsonStyle = function (feature) {
-  let TouristSite = feature.properties.NAME
-  let StateColor = 'blue'
-  let myStyle = {
-  color: StateColor,
-  weight: 1.5,
-  }
-  return myStyle
+let myLayerStyle = {
+  color: 'Blue',
+  radius: 5
 }
+
+function createCircles (feature, latlng) {
+  return L.circleMarker(latlng, myLayerStyle)
+}
+
+let myLayerOptions = {
+  pointToLayer: createCircles
+}
+
 
 function createPopup (feature, featurelayer) {
   let SiteName = feature.properties.NAME
@@ -38,10 +42,6 @@ function createPopup (feature, featurelayer) {
   featurelayer.bindPopup('This Baton Rouge Tourist Venue is ' + SiteName + ' and it is own by ' + Owner + '.')
 }
 
-PhatGeojsonOptions = {
-  style: PhatGeojsonStyle,
-  onEachFeature: createPopup
-}
 
 L.control.layers(myBasemaps).addTo(PhatMapFinal)
-L.geoJSON(TouristVenue, PhatGeojsonOptions).addTo(PhatMapFinal)
+L.geoJSON(TouristVenue, myLayerOptions).addTo(PhatMapFinal)
