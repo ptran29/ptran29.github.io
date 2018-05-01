@@ -42,6 +42,9 @@ function createPopup (feature, featurelayer) {
   featurelayer.bindPopup('This Baton Rouge Tourist Venue is ' + SiteName + ' and it is own by ' + Owner + '.')
 }
 
+PhatGeojsonOptions = {
+  onEachFeature: createPopup
+}
 
 L.control.layers(myBasemaps).addTo(PhatMapFinal)
-L.geoJSON(TouristVenue, myLayerOptions).addTo(PhatMapFinal)
+L.geoJSON(TouristVenue, PhatGeojsonOptions, myLayerOptions).addTo(PhatMapFinal)
