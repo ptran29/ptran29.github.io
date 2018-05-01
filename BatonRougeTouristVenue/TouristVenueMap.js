@@ -21,7 +21,7 @@ let myBasemaps = {
 }
 
 let myLayerStyle = {
-  color: 'Blue',
+  color: 'Purple',
   radius: 5
 }
 
